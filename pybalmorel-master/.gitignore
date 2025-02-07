@@ -1,0 +1,12 @@
+.testenv/*
+dist/*
+src/*
+!src/pybalmorel
+examples/files/DE.inc
+__pycache__
+output
+config
+build
+
+# This one is necessary to do tests
+!tests/output/.keepoutputfolder
